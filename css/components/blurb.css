@@ -1,0 +1,38 @@
+.blurbContainer{
+    height: 100%;
+    width: 100%;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.blurb{
+    font-size: x-small;        
+    object-fit: fill;
+}
+
+
+/* **************************
+***** MEDIA QUERIES ******************************************
+************************** */
+
+/* ** Small to Medium ** */
+@media screen and (min-width: 500px) {
+    .blurb{
+    font-size: small;        
+    }
+}
+
+@media screen and (min-width: 719px) {
+    .blurb{
+    font-size: medium;        
+    }
+}
+
+/* ** lARGE to XL ** */
+
+@media screen and (min-width: 992px) {
+    .blurb{
+        font-size: x-large;        
+    }
+}
